@@ -1,0 +1,41 @@
+.text-slider-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    background: #061f2b;
+    padding: 11px 0;
+}
+
+.text-slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.text-slide {
+    flex: 0 0 100%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+button#btn {
+    position: absolute;
+    top: 5%;
+    margin: 0 19em;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+.text-prev {
+    left: 0;
+}
+
+.text-next {
+    right: 0;
+}

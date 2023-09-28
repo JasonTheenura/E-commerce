@@ -1,0 +1,76 @@
+h1{
+    margin: 3em 0 9px 1.5em;
+    font-weight: 500;
+    font-size: 2em;
+    border-bottom: 2px solid #000;
+    width: 30%;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0 0 2em 2em;
+}
+ul#cartItems{
+    display: flex;
+    width: 60%;
+    margin: 0 0 2em 3em;
+}
+li{
+    padding: 0 10px
+}
+.details{
+    margin: 0 0 2em 3em;
+}
+.details p{
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+}
+.details p span{
+    border-bottom: 2px solid #000;
+    padding: 0 0 1px 0;
+}
+.details a{
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    width: 14%;
+    padding: 7px 1%;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 0 1em;
+}
+
+/* Add this CSS to your style.css file or within a <style> element in your HTML file */
+
+/* Adjust the maximum width of the images in the cart */
+#cartItems img {
+    max-width: 100%; /* Adjust the width as needed */
+    height: auto; /* To maintain the aspect ratio */
+}
+/* Add this CSS to your style.css file or within a <style> element in your HTML file */
+
+
+/* Add this CSS to your style.css file or within a <style> element in your HTML file */
+
+
+ul{
+    list-style: none;
+}
+button{
+    position: absolute;
+    right: 5%;
+    bottom: 9%;
+    background: #000;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    border-radius: 20px;
+    padding: 6px 2%;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+

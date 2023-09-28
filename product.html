@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jasonz'</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="slider.css">
+
+    <!-- icon -->
+    <link rel="icon" href="">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-slider-container">
+            <div class="text-slider">
+                <div class="text-slide">Free shipping to Sri Lanka</div>
+                <div class="text-slide">Special discounts this week</div>
+                <div class="text-slide">Shop now for great deals</div>
+            </div>
+            <button class="text-prev" id="btn" onclick="changeTextSlide(-1)">&#8249;</button>
+            <button class="text-next" id="btn" onclick="changeTextSlide(1)">&#8250;</button>
+        </div>
+        <nav>
+
+            <div class="text">
+                <h4 class="logo">Jazons'</h4>
+            </div>
+
+            <ul>
+                <li class="active">
+                    <a href="#">Home</a>
+                </li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Gifts</a></li>
+                <li><a href="#">Accessories</a></li>
+            </ul>
+
+            <div class="icons">
+                <i class="bx bx-search"></i>
+                <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+                <i class='bx bx-user'></i>
+            </div>
+        </nav>
+
+        <div class="hero">
+
+            <img src="about.png" alt="" class="cover">
+
+            <div class="text-box">
+
+                <div class="main-text">
+                    <h1>your fashion <br> our mission</h1>
+                </div>
+                <div class="parag">
+                    <h5 class="para">Discover the latest trends and timeless classics at <br><span>Jasonz' Store</span>
+                        We're your
+                        one-stop shop for all things fashion and clothing, curated to help you express your unique style
+                        and
+                        feel confident in what you wear.</h5>
+                </div>
+
+                <div class="checkBtn">
+                    <span class="check">Check this out</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="layout">
+            <div class="row">
+                <div class="card">
+
+                    <div class="overlay">
+                        <h1>get to your rythem <br> with us</h1>
+                        <h5>Discover a world of style that moves to your beat. Our fashion collection is not just
+                            about clothing; it's about self-expression, confidence, and individuality. With every
+                            piece, we invite you to embrace your unique rhythm and make a statement.</h5>
+
+                        <span class="slider">Go Ahead</span>
+                    </div>
+                    <div class="cover-img">
+                        <img src="image1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="products">
+            <div class="product-wrap">
+                <div class="product">
+                    <img src="f1.jpg" alt="">
+                    <div class="collection">
+                        <h2>Urban Edge Tee</h2>
+                        <p>Price: $20.79</p>
+                        <button class="check"><a href="Urban.html">Check <3 </a></button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="f2.jpg" alt="">
+                    <div class="collection">
+                        <h2>Vintage Vibe Chambray</h2>
+                        <p>Price: $23.99</p>
+                        <button class="check"><a href="Vintage.html">Check <3 </a> </button>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="f3.jpg" alt="">
+                    <div class="collection">
+                        <h2>Weekend Escape Plaid</h2>
+                        <p>Price: $13.49</p>
+                        <button class="check"><a href="Weekend.html">Check <3 </a> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="description">
+            <div class="cover">
+                <img src="b8 (3).jpg" alt="">
+            </div>
+            <div class="text-overlay">
+                <h1 class="title">
+                    Elevate Your Style with <br> Our Finest
+                </h1>
+                <h5>Introducing our latest masterpiece, a fashion item that embodies iconic elegance and redefines the
+                    standards of style. Crafted with meticulous attention to detail, this exquisite piece is designed to
+                    elevate your fashion game to new heights.</h5>
+
+                <button class="scroll">Scroll </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="products">
+        <div class="product-wrap">
+            <div class="product">
+                <img src="f4.jpg" alt="">
+                <div class="collection">
+                    <h2>Urban Nomad Tunic</h2>
+                    <p>Price: $22.09</p>
+                    <button class="check"><a href="Nomad.html">Check <3 </a></button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="f5.jpg" alt="">
+                <div class="collection">
+                    <h2>Sahara Sunburst Shirt</h2>
+                    <p>Price: $26.34</p>
+                    <button class="check">Check <3 </button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="f6.jpg" alt="">
+                <div class="collection">
+                    <h2>Rock 'n' Roll Band Tee</h2>
+                    <p>Price: $33.59</p>
+                    <button class="check"><a href="rock.html">Check <3 </a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .image-gallery {
+            display: flex;
+        }
+
+        .thumbnail {
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .main-image {
+            max-width: 100%;
+        }
+    </style>
+
+    <footer>
+        <div class="logo">
+            <span class="logo">Jasonz'</span>
+        </div>
+        <div class="first-col">
+            <div class="contact">
+                <h2 class="title">Contact</h2>
+                <li><a href="https://www.instagram.com/jason._dt/">Instagram</a></li>
+                <li><a href="https://web.whatsapp.com/@jason._dt">Whatsapp</a></li>
+                <li><a href="#">Google</a></li>
+                <li><a href="jasontheenura@gmail.com">Gmail</a></li>
+            </div>
+            <div class="quick-links">
+                <h2 class="title" id="sec">Quick Links</h2>
+
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Refund policy</a></li>
+                <li><a href="#">Wholesale</a></li>
+            </div>
+        </div>
+
+        <div class="halfWay">
+            <h2>For further more information Subscribe</h2>
+            <div class="toggle">
+                <input type="text" placeholder="Email">
+                <button class="sub" id="sub"><a href="sub.php">Subscribe</a></button>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <h5>Feel free to replace "2023" with the current year and make any other adjustments you'd like. This copyright
+            text
+            reflects your ownership and dedication to your website's content and design.</h5>
+        <h4>© 2023 Jason. All Rights Reserved. Designed with Love and Passion.</h4>
+    </div>
+    <!-- scriptFiles -->
+
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+</body>
+
+</html>
